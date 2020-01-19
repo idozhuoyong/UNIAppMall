@@ -1,6 +1,13 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
+			"path": "pages/start/start",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+		},
+		{
 			"path": "pages/index/index",
 			"style": {
 				"navigationBarTitleText": "天使童装"
@@ -18,7 +25,11 @@
 				"navigationBarTitleText": "个人中心"
 			}
 		}
-	],
+	    ,{
+            "path" : "pages/start/start",
+            "style" : {}
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "天使童装",

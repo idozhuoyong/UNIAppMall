@@ -14,4 +14,8 @@
 
 <style>
 	/*每个页面公共css */
+	.container{
+		display: flex;
+		flex-direction: column;
+	}
 </style>
